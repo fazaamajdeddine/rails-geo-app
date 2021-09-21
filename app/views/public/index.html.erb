@@ -1,0 +1,26 @@
+<h3>Welcome to my online store</h3>
+<p><strong>My Products:</strong></p>
+
+<p>
+    User country: <%= @user_location %><br/>
+    User city: <%= @user_location%><br/>
+    User currency: <%= @currency %>
+</p>
+
+<div class="product">
+    <h4>shirt</h4>
+    <p>Let's discover how to gather user details such as country, city and more by using the geocoder gem. Detecting the user's location is helpful in setting default e-commerce store currencies, recommending places / venues near the user and much more.</p>
+    <p><strong>Price: <span><%= number_to_currency(29, unit: "$") %></span> </strong></p>
+</div>
+
+<div class="product">
+    <h4>shoes</h4>
+    <p>Let's discover how to gather user details such as country, city and more by using the geocoder gem. Detecting the user's location is helpful in setting default e-commerce store currencies, recommending places / venues near the user and much more.</p>
+    <p><strong>Price: <span><%= number_to_currency(69, unit: "$") %></span> </strong></p>
+</div>
+
+<div class="product">
+    <h4>jeans</h4>
+    <p>Let's discover how to gather user details such as country, city and more by using the geocoder gem. Detecting the user's location is helpful in setting default e-commerce store currencies, recommending places / venues near the user and much more.</p>
+    <p><strong>Price: <span><%= number_to_currency(99, unit: "$") %></span> </strong></p>
+</div>
